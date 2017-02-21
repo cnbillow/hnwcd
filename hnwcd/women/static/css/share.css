@@ -1,0 +1,84 @@
+﻿@charset "utf-8";
+body{
+	font-family: "微软雅黑";
+	/*background-image: url(../images/bg.png);*/
+    background-color:#F7EEC8;
+	}
+* {
+	padding: 0px;
+	margin: 0px;
+
+}
+img{
+	border:0px;}
+a{
+	color:#000;
+	}
+a.link{
+	color:#000;
+	}        /* 正常情况下的样式 */
+
+a.visited{
+	color:#000;
+	}   /* 已访问过的样式 */
+
+a.hover{
+	color:#000;
+	}    /*  鼠标超链接移过时的样式 */
+
+a.active{
+	color:#000;
+	}    /*  鼠标在超连接上使用右键时的样式 */
+
+.allwidthbox {
+	width: 100%;
+	float: left;
+}
+.allwidthbox .contentCenter {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+
+}
+#menu{
+	background-color:#F98A2C;
+	height:41px;
+	}
+	#menu ul{
+		width:100%;
+		padding:0px;
+		}
+		#menu ul li{
+			display:block;
+			width:89px;
+			float:left;
+			line-height:41px;
+			color:#FFF;
+			list-style-type:none;
+			text-align:center;
+			font-size:15px;
+			}
+		#menu ul li a{
+			text-decoration:none;
+			display:block;
+			width:89px;
+			float:left;
+			line-height:41px;
+			color:#FFF;
+			list-style-type:none;
+			text-align:center;
+			font-size:15px;
+			}
+		#menu ul li a:hover{
+			text-decoration:none;
+			background-color:#CA5E03;
+			display:block;
+			/*width:80px;*/
+			float:left;
+			line-height:41px;
+			color:#FFF;
+			list-style-type:none;
+			text-align:center;
+			font-size:15px;
+			}

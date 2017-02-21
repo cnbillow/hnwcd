@@ -1,0 +1,85 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if IE 7]><html class="ie7" lang="zh"><![endif]-->
+<!--[if gt IE 7]><!-->
+<html lang="zh"><!--<![endif]-->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>湖南省妇女儿童发展基金会 -Hunan woman and childen's development foundation-</title>
+   
+    <link href="{%　static "css/lrtk.css"　%}" rel="stylesheet">
+    <link href="{%　static "css/index.css" %}" rel="stylesheet" type="text/css">
+    <link href="{%　static "css/share.css" %}" rel="stylesheet" type="text/css">
+    <link href="{%　static "css/style.css" %}" rel="stylesheet" type="text/css">
+    <script src="static/hm.asc"></script><script src="static/jquery-1.js"></script>
+    <script type="text/javascript" src="static/jquery_002.js"></script>
+    <script type="text/javascript" src="static/focus.js"></script>
+    <script src="static/ckplayer.js"></script>
+    <link href="{%　static "css/PagedList.css" %}" rel="stylesheet">
+    <script src="static/scroll.js"></script>
+    <link href="{%　static "css/scroll.css" %}" rel="stylesheet">
+    <script src="static/jquery.js"></script>
+	<script>
+		var _hmt = _hmt || [];
+		(function () {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?5e2e9dbcb318967bd8f11aa17880f9dc";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+   
+</head>
+
+<body>
+
+    {% include 'base/nav.html' %}
+    
+    {% for i in info %}
+        {% if forloop.first %}
+            <div class="NewsListTitle">{{i.CategoryID}}</div>
+            <div class="NewsListTitleListLine"></div>
+            <ul>
+        {% else%}
+        {% endif %}
+                <li>
+                    <div class="articlelisticon"><img src="{% static "pic/articlelist.jpg" %}" alt="" width="12" height="16"></div>
+                    <a href="{% url 'Show' id=i.ArticleID %}">{{i.Title}}<font color="#999999">{{i.PublishDate | date:"Y-m-d"}}</font></a>
+                </li>
+    {% endfor %}
+            </ul>
+    
+    <div class="pagelist">
+        <div class="pagination-container">
+           <ul class="pagination">
+                {% if info.has_previous %}
+
+                        <li class="active">
+                            <a href="?page={{ info.previous_page_number }}">上一页</a>
+                        </li>
+                {% endif %}
+
+                {% for i in info.paginator.page_range %}
+                    {% if i == info.number %}
+                        <li class=""><a>第{{info.number}}页</a></li>
+                    {% else %}
+                            <li>
+                                <a href="?page={{ i }}">{{i}}</a>
+                            </li>
+                    {% endif %}
+                {% endfor %}
+
+                {% if info.has_next %}
+                           <li class="active">
+                            <a href="?page={{ info.next_page_number }}"> 下一页</a>
+                           </li>
+                {% endif %}
+            </ul>
+        </div>
+    
+    </div>
+    
+    {% include 'base/bottom.html' %}
+</body>
+</html>

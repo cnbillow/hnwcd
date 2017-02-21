@@ -1,0 +1,969 @@
+﻿@charset "utf-8";
+
+.oontentleft {
+    width: 240px;
+    height: auto;
+    border-collapse: collapse;
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+    float: left;
+}
+
+.listoontentright {
+    width: 240px;
+    height: auto;
+    float: right;
+}
+
+.axjzbox {
+    padding-top:15px;
+    width: 100%;
+}
+
+.axjzboxtitle {
+    height: 28px;
+    line-height: 28px;
+    width: 100%;
+}
+
+.axjzboxico {
+    width: 35px;
+    height: 26px;
+    float: left;
+}
+
+.axjzboxtitleContent {
+    height: 26px;
+    width: 100px;
+    float: left;
+}
+.axjzboxtitleContents {
+    height: 26px;
+    width: auto;
+    float: left;
+}
+
+.more {
+    font-size: 12px;
+    width: 30px;
+    float: right;
+}
+
+.axjzContent {
+    margin-top: 10px;
+    color: #FFF;
+    height: 50px;
+    background-color: #a90900;
+    padding: 8px 3px 3px 3px;
+}
+
+.axjzhead {
+    width: 100%;
+    height: 20px;
+    padding-bottom: 2px;
+}
+
+.axjzheaditem {
+    width: 33.3%;
+    height: 20px;
+    text-align: left;
+    font-weight: bold;
+    float: left;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.axjzheaditemContent {
+    width: 33.3%;
+    height: 20px;
+    text-align: left;
+    float: left;
+    line-height: 20px;
+    font-size: 13px;
+    overflow: hidden;
+    font-family: "宋体";
+}
+
+.gsgglist {
+    width: 100%;
+    height: auto;
+}
+
+.gsgglist ul{
+    width: 100%;
+    height: auto;
+    padding-top:15px;
+}
+
+.gsgglist ul li{
+
+    height: auto;
+    line-height:25px;
+    overflow:hidden;
+    font-size:13px;
+    font-family:"宋体";
+}
+
+
+
+.gsgglist ul li a:link{
+
+    height: 25px;
+    line-height:20px;
+    font-size:13px;
+    font-family:"宋体";
+}
+
+
+
+.wylyalist {
+    width: 240px;
+    height: auto;
+    overflow:hidden;
+}
+
+.wylyalist ul{
+    width: 240px;
+    height: auto;
+    padding-top:15px;
+}
+
+.wylyalist ul li{
+    padding-bottom:5px;
+    height: auto;
+    width:100%;
+    line-height:20px;
+    overflow:hidden;
+    font-size:13px;
+    font-family:"宋体";
+}
+.axjzlist {
+    width: 100%;
+    height: 255px;
+}
+
+    .axjzlist tr {
+        width: 100%;
+        height: 19px;
+    }
+
+.axlist th {
+    font-size: 14px;
+    height: 20px;
+}
+
+.axlist td {
+    text-align: center;
+    font-size: 12px;
+}
+
+.axvideo {
+    margin-top: 5px;
+    height: auto;
+}
+
+    .axvideo img {
+        border: 2px solid #a90900;
+    }
+
+.oontentright {
+    width: 730px;
+    height: auto;
+    padding: 5px;
+    float: right;
+}
+
+.allist {
+    width: 730px;
+    height: auto;
+    padding: 5px;
+    float: left;
+    border-bottom: 3px solid #c5c5c5;
+}
+
+.xmxqlist {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    float: left;
+    border-bottom: 3px solid #c5c5c5;
+}
+
+.Projectinfo {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    float: left;
+}
+
+.ProjectTitle {
+    width: 100%;
+    font-size: 18px;
+    color: #b41a22;
+}
+
+.xmxqlist ul {
+    width: 730px;
+    float: left;
+    height: auto;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+    .xmxqlist ul li {
+        list-style-type: none;
+        width: 730px;
+        line-height: 30px;
+        font-size: 13px;
+        float: left;
+    }
+
+.hzhblist {
+    width: 730px;
+    height: auto;
+    padding: 5px;
+    float: left;
+}
+
+.aboutuslist {
+    width: 730px;
+    height: auto;
+    padding: 5px;
+    float: left;
+}
+
+.hzhblist ul {
+    padding-top: 10px;
+    width: 730px;
+    height: auto;
+    float: left;
+}
+
+    .hzhblist ul li {
+        width: 730px;
+        height: auto;
+        float: left;
+        list-style: none;
+        padding-bottom: 10px;
+    }
+
+.wylylist {
+    width: 730px;
+    height: auto;
+    padding: 5px;
+    float: left;
+    border-bottom: 3px solid #c5c5c5;
+}
+
+    .wylylist ul {
+        padding-top: 10px;
+        width: 730px;
+        height: auto;
+        overflow: hidden;
+        float: left;
+    }
+
+.mestime {
+    width: 725px;
+    background-color: #dbdbdb;
+    height: 20px;
+    font-size: 13px;
+    color: #333;
+    padding-left: 5px;
+    font-family: "宋体";
+    line-height: 20px;
+}
+
+.mesquestion {
+    width: 725px;
+    height: auto;
+    font-size: 13px;
+    color: #333;
+    padding-left: 5px;
+    font-family: "宋体";
+    line-height: 25px;
+}
+
+.wylylist ul li {
+    width: 730px;
+    height: auto;
+    float: left;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.articleTitle {
+    color: #005e81;
+    font-size: 16px;
+    width: 100%;
+    height: auto;
+    line-height: 20px;
+    float: left;
+}
+
+.articleDate {
+    color: #005e81;
+    font-size: 12px;
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    float: left;
+    font-family: "宋体";
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.articledetail {
+    width: 720px;
+    height: auto;
+    float: left;
+    padding: 5px;
+    min-height: 598px;
+    font-size: 13px;
+    font-family: "宋体";
+    line-height: 25px;
+}
+
+.articleInfo {
+    width: 730px;
+    height: auto;
+    padding: 5px;
+    float: left;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 10px;
+}
+
+.allist ul {
+    width: 730px;
+    float: left;
+    height: 580px;
+    overflow: hidden;
+    padding-top: 10px;
+    padding: 3px;
+}
+
+.pagelist {
+    width: 700px;
+    float: left;
+    font-size: 12px;
+    padding-left: 5px;
+    font-family: "宋体";
+    height: 80px;
+    overflow: hidden;
+}
+
+.allist ul li {
+    list-style-type: none;
+    width: 730px;
+    line-height: 35px;
+    font-size: 13px;
+    float: left;
+    font-family: "宋体";
+}
+
+.pagelist ul li {
+    width: auto;
+    padding: 1px;
+}
+
+.NewsList {
+    width: 360px;
+    height: 190px;
+    float: left;
+}
+
+.NewsListgyxm {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.leavemsgbox {
+    margin-top: 10px;
+    border-top: 3px solid #c5c5c5;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.NewsListsztd {
+    width: 360px;
+    font-size: 13px;
+    float: right;
+}
+
+.NewsListTitle {
+    width: 90px;
+    height: 30px;
+    border-bottom: 3px solid #000000;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    font-size: 18px;
+}
+
+
+.NewsListTitlePro {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: auto;
+    height: 30px;
+    border-bottom: 3px solid #000000;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.NewsListTitleListLinePro {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    border-bottom: 3px solid #c5c5c5;
+    text-align: right;
+    line-height: 30px;
+    color: #A90900;
+    font-size: 12px;
+    float: right;
+}
+
+
+.iWantleaveMes {
+    width: 720px;
+    height: 30px;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 30px;
+    float: left;
+    font-size: 18px;
+    color: #036;
+}
+
+.NewsListTitlesztd {
+    width: 90px;
+    height: 30px;
+    border-bottom: 3px solid #A90900;
+    text-align: center;
+    line-height: 30px;
+    color: #A90900;
+    float: left;
+    font-size: 18px;
+}
+
+.MesName {
+    width: 720px;
+    height: auto;
+    float: left;
+    padding-left: 10px;
+    font-size: 13px;
+    line-height: 30px;
+    padding-bottom: 5px;
+}
+
+.MessNameleft {
+    width: 100px;
+    float: left;
+}
+
+.MessNameRight {
+    width: 600px;
+    float: left;
+}
+
+.MessInput {
+    width: 200px;
+    height: 20px;
+    padding: 2px;
+}
+
+.MessAreaInput {
+    width: 615px;
+    height: 80px;
+    padding: 2px;
+}
+
+.Projectjj {
+    width: 100%;
+    line-height: 25px;
+    font-size: 13px;
+    text-indent: 2em;
+}
+
+.NewsListTitleLine {
+    width: 270px;
+    height: 30px;
+    border-bottom: 3px solid #c5c5c5;
+    text-align: right;
+    line-height: 30px;
+    color: #A90900;
+    font-size: 12px;
+    float: right;
+}
+
+.NewsListTitleListLine {
+    width: 640px;
+    height: 30px;
+    border-bottom: 3px solid #c5c5c5;
+    text-align: right;
+    line-height: 30px;
+    color: #A90900;
+    font-size: 12px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+.NewsListTitleListLinexmxq {
+    width: 910px;
+    height: 30px;
+    border-bottom: 3px solid #c5c5c5;
+    text-align: right;
+    line-height: 30px;
+    color: #A90900;
+    font-size: 12px;
+    float: right;
+}
+
+.NewsListTitleListwyly {
+    padding-left: 20px;
+    width: 620px;
+    height: 30px;
+    border-bottom: 3px solid #c5c5c5;
+    text-align: left;
+    line-height: 30px;
+    color: #A90900;
+    font-size: 12px;
+    float: right;
+}
+
+.NewsListTitleLinegyxm {
+    width: 640px;
+    height: 30px;
+    border-bottom: 3px solid #c5c5c5;
+    line-height: 30px;
+    text-align: right;
+    color: #000000;
+    font-size: 12px;
+    float: right;
+}
+
+.NewsListTitleLinehzhb {
+    width: 910px;
+    height: 30px;
+    border-bottom: 3px solid #c5c5c5;
+    line-height: 30px;
+    text-align: right;
+    color: #000000;
+    font-size: 12px;
+    float: right;
+}
+
+.contentrightl {
+    width: 360px;
+    float: left;
+}
+
+.contentright4 {
+    width: 360px;
+    float: right;
+}
+
+.contentrightl ul {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    font-family: "宋体";
+}
+
+    .contentrightl ul li {
+        padding-top: 1px;
+        width: 100%;
+        display: block;
+        line-height: 23px;
+    }
+
+.NewsListsztd ul {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    font-family: "宋体";
+}
+
+    .NewsListsztd ul li {
+        padding-top: 1px;
+        width: 100%;
+        display: block;
+        line-height: 25px;
+    }
+
+.NewsListgyxm ul {
+    width: 100%;
+    float: left;
+}
+
+    .NewsListgyxm ul li {
+        float: left;
+        width: 240px;
+        height: 106px;
+        padding-right: 2px;
+        padding-top: 5px;
+        list-style: none;
+    }
+
+.gyxmpic {
+    width: 240px;
+    height: 86px;
+    position: relative;
+}
+
+.gyxmpictitle {
+    position: absolute;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFF;
+    height: 20px;
+    width: 234px;
+    padding-left: 5px;
+    top: 86px;
+    background: url(../images/ico3.png) repeat;
+    left: 1px;
+}
+
+    .gyxmpictitle a {
+        color: #FFF;
+    }
+
+        .gyxmpictitle a.link {
+            color: #FFF;
+        }
+        /* 正常情况下的样式 */
+        .gyxmpictitle a.visited {
+            color: #FFF;
+        }
+        /* 已访问过的样式 */
+        .gyxmpictitle a.hover {
+            color: #FFF;
+        }
+        /*  鼠标超链接移过时的样式 */
+        .gyxmpictitle a.active {
+            color: #FFF;
+        }
+
+
+
+
+.gyxmpictitle2 {
+    position: absolute;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFF;
+    height: 20px;
+    width: 304px;
+    padding-left: 5px;
+    top: 140px;
+    background: url(../images/ico3.png) repeat;
+    left: 1px;
+}
+
+    .gyxmpictitle2 a {
+        color: #FFF;
+    }
+
+        .gyxmpictitle2 a.link {
+            color: #FFF;
+        }
+        /* 正常情况下的样式 */
+        .gyxmpictitle2 a.visited {
+            color: #FFF;
+        }
+        /* 已访问过的样式 */
+        .gyxmpictitle2 a.hover {
+            color: #FFF;
+        }
+        /*  鼠标超链接移过时的样式 */
+        .gyxmpictitle2 a.active {
+            color: #FFF;
+        }
+
+
+
+.footContent a {
+    color: #FFF;
+}
+
+    .footContent a.link {
+        color: #FFF;
+    }
+    /* 正常情况下的样式 */
+    .footContent a.visited {
+        color: #FFF;
+    }
+    /* 已访问过的样式 */
+    .footContent a.hover {
+        color: #FFF;
+    }
+    /*  鼠标超链接移过时的样式 */
+    .footContent a.active {
+        color: #FFF;
+    }
+/*  鼠标在超连接上使用右键时的样式 */
+.NewsListhzhb {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    float: left;
+}
+
+    .NewsListhzhb ul {
+        margin-top: 10px;
+        width: 100%;
+        list-style-type: none;
+        float: left;
+        margin-left: -10px;
+    }
+
+        .NewsListhzhb ul li {
+            width: 231px;
+            height: 69px;
+            border: 2px solid #C5C5C5;
+            float: left;
+            margin-left: 15px;
+        }
+
+
+
+        .NewsListhzhbax {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    float: left;
+}
+
+    .NewsListhzhbax ul {
+        margin-top: 10px;
+        width: 100%;
+        list-style-type: none;
+        float: left;
+        margin-left: -10px;
+    }
+
+        .NewsListhzhbax ul li {
+            width: 310px;
+            height: 160px;
+            border: 2px solid #C5C5C5;
+            float: left;
+            margin-left: 15px;
+            margin-top:5px;
+        }
+
+
+.NewsListyqlj {
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-bottom: 10px;
+}
+
+    .NewsListyqlj ul {
+        margin-top: 10px;
+        width: 100%;
+        list-style-type: none;
+        float: left;
+        margin-left: -10px;
+    }
+
+        .NewsListyqlj ul li {
+            width: 231px;
+            height: 69px;
+            border: 2px solid #FFFFFF;
+            float: left;
+            margin-left: 15px;
+        }
+
+.yqljlist {
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+    float: left;
+    line-height: 20px;
+    font-size: 13px;
+    font-family: "宋体";
+}
+
+.footContent {
+    font-family: "宋体";
+    text-align: center;
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 22px;
+}
+
+.articlelisticon {
+    float: left;
+    width: 20px;
+    height: 20px;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+.hzhbico {
+    width: 140px;
+    height: 50px;
+    float: left;
+}
+
+.hzhbicotitle {
+    height: 50px;
+    width: auto;
+    float: left;
+    padding-left: 10px;
+    line-height: 50px;
+}
+
+.hzhbico img {
+    width: 140px;
+    height: 50px;
+    border: 2px solid #C5C5C5;
+}
+
+#minilogo {
+    margin-top: 10px;
+    width: 100%;
+    height: 70px;
+    float: left;
+}
+
+
+
+.menutab {
+    float: left;
+    background-color: #C5C5C5;
+    height: 30px;
+    width: 100%;
+    font-size: 15px;
+}
+
+    .menutab ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-align: left;
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+
+    .menutab li {
+        display: inline;
+        line-height: 23px;
+    }
+
+        .menutab li a {
+            color: #000;
+            text-decoration: none;
+        }
+
+            .menutab li a.tabactive {
+                color: #000000;
+                background-color: #ffffff;
+                position: relative;
+                padding: 0px 5px 0px 2px;
+            }
+
+#tabcontent1, #tabcontent2, #tabcontent3, #tabcontent4, #anothercontent1, #anothercontent2, #anothercontent3, #anothercontent4, #anothercontent5, #anothercontent6 {
+    border: 1px solid #C5C5C5;
+    width: 718px;
+    height: auto;
+    float: left;
+    padding: 5px;
+    min-height: 598px;
+    font-size: 13px;
+    font-family: "宋体";
+    line-height: 25px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+#demo {
+    overflow: hidden;
+    margin-top: 10px;
+    width: 100%;
+    list-style-type: none;
+    float: left;
+}
+
+    #demo img {
+        /*border: 3px solid #F2F2F2;*/
+        width: 250px;
+        height: 69px;
+        border: 2px solid #C5C5C5;
+        float: left;
+        margin-left: 15px;
+    }
+
+#indemo {
+    width: 800%;
+}
+
+#indemo, #demo1, #demo2 {
+    float: left;
+}
+
+
+/* red */ 
+.red { 
+color: #faddde; 
+border: solid 1px #980c10; 
+background: #d81b21; 
+background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#aa1317)); 
+background: -moz-linear-gradient(top, #ed1c24, #aa1317); 
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317'); 
+} 
+.red:hover { 
+background: #b61318; 
+background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115)); 
+background: -moz-linear-gradient(top, #c9151b, #a11115); 
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9151b', endColorstr='#a11115'); 
+} 
+.red:active { 
+color: #de898c; 
+background: -webkit-gradient(linear, left top, left bottom, from(#aa1317), to(#ed1c24)); 
+background: -moz-linear-gradient(top, #aa1317, #ed1c24); 
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa1317', endColorstr='#ed1c24'); 
+} 
+/* button 
+---------------------------------------------- */ 
+.button { 
+display: inline-block; 
+zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */ 
+*display: inline; 
+vertical-align: baseline; 
+margin: 0 2px; 
+outline: none; 
+cursor: pointer; 
+text-align: center; 
+text-decoration: none; 
+font: 14px/100% Arial, Helvetica, sans-serif; 
+padding: .5em 2em .55em; 
+text-shadow: 0 1px 1px rgba(0,0,0,.3); 
+-webkit-border-radius: .5em; 
+-moz-border-radius: .5em; 
+border-radius: .5em; 
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2); 
+-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2); 
+box-shadow: 0 1px 2px rgba(0,0,0,.2); 
+} 
+.button:hover { 
+text-decoration: none; 
+} 
+.button:active { 
+position: relative; 
+top: 1px; 
+} 

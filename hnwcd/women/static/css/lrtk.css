@@ -1,0 +1,76 @@
+.w990{ width:990px;}.center{ margin:0 auto;}.main{ background:#dcdddd;}
+.fix{*zoom:1;font-family:"宋体";}.fix:after{display:block; content:"clear"; height:0; clear:both; overflow:hidden; visibility:hidden;}
+a{ text-decoration:none;}
+img{ border:none;}
+.power{ text-align:center; line-height:30px;}
+
+/*以上是基本参数 可不复制  以下是必须*/
+/*部分开始-----------------------------------------------------*/
+/*banner*/
+.none{ display:none;}
+.banner{ min-width:990px;height:560px; position:relative; margin:0; overflow:hidden; z-index:1;}
+.banner_show{ width:100%;  height:560px; overflow:hidden; position:relative;margin-left:5px;}
+.bannger_inbox{ position:absolute; left:50%; top:0;}
+
+/*翻页*/
+.banner_pre_next{position:relative;z-index:105;top:475px;width:990px;left:50%; height:37px;margin-left:-505px;*left:240px;}
+.banner_pre_next a{ width:37px; height:37px; background:url(../images/btn.png) no-repeat; text-indent:-999em;}
+.banner_pre_next .banner_btn_left{position:absolute;left:-37px; background-position:0px 0px;}
+.banner_pre_next .banner_btn_right{position:absolute;right:-37px; background-position:-37px 0px;}
+
+
+/*圆点*/
+.yq_banner_list{ width:100px; height:25px;position:absolute; top:485px; text-align:right; z-index:100; left:120px; padding-right:12px; display:none;}
+.yq_banner_list a{ display:inline-block; width:19px; height:19px;background:url(../images/abg.png) no-repeat right; margin-right:10px;}
+.yq_banner_list a.hover{background:url(../images/abg.png) no-repeat left; }
+
+/*文字*/
+.banner_mag{width:345px;height:560px;position:absolute; overflow:hidden;left:50%;top:0px;margin-left:-505px;text-align:left;z-index:99;font-family:"Microsoft YaHei";}
+.banner_magbox{height:560px;background:url(../images/ico3.png) repeat;text-align:left;padding:50px 30px 35px;}
+.banner_magbox .focus-img{ text-align:right; margin-bottom:40px;}
+.banner_magbox h4{font-size:18px; font-weight:normal;color:#fff; margin-bottom:10px; }
+.banner_magbox h4 a{color:#fff; }
+.banner_magbox p{font-size:14px;color:#fff;font-weight:normal;line-height:22px;}
+
+
+/*新闻*/
+.focus-news{  height:100px; color:#fff; padding:30px 0px 10px 0px; background:url(../images/listbg.png) repeat; position:absolute; bottom:0px; width:990px;left:50%;margin-left:-500px; z-index:9999;font-family:"Microsoft YaHei";}
+.index-news-title{ float:left; width:130px; margin-right:60px; position:relative; padding-left:70px;}
+.index-news-title h2{ font-size:20px; height:30px; font-weight:normal;}
+.index-tabs{ position:absolute; right:0px; width:34px; bottom:10px;}
+.index-tabs li{ width:17px; height:17px; float:left; cursor:pointer; background:url(../images/dot.gif)  no-repeat;}
+.index-tabs li.prev{ background-position:0px 0px;}
+.index-tabs li.next{ background-position:-19px 0px;}
+.index-news-show{ float:left; width:460px;}
+.index-news-show ul{}
+.index-news-show ul li{  float:left; width:225px; padding-right:5px; list-style-type:none; font-family:"宋体";}
+.index-news-show ul li h2{ font-size:14px;}
+.index-news-show ul li h2 a{ color:#fff;}
+.index-news-show ul li p{ font-size:14px;}
+.index-news-show ul.hide{ display:none;}
+.index-news-tel{ font-weight:bold; float:right; padding-left:30px; background:url(../images/tel.gif) left no-repeat; font-size:20px; width:180px;}
+/*部分结束-----------------------------------------------------*/
+
+/* 懒人图库 搜集整理 www.lanrentuku.com */
+
+/**{padding:0;margin:0;}
+html,body{font-size:12px;font-family:"微软雅黑";outline:none;color:#666;background:#fff;}
+ul,ol{list-style:none;}
+img{border:none;outline:none;}
+a{color:#666;text-decoration:none;outline:none;}
+a:hover{color:#e8431f;}*/
+
+/*浮动客服*/
+#floatDivBoxs{width:170px;background:#fff;position:fixed;top:180px;right:0px;z-index:999;font-size:12px;font-family:"微软雅黑";outline:none;color:#666;background:#fff;}
+#floatDivBoxs .floatDtt{width:100%;height:45px;line-height:45px; background:#f08326;color:#fff;font-size:18px;text-indent:22px;position:relative;}
+#floatDivBoxs .floatDqq{padding:0 14px;}
+#floatDivBoxs .floatDqq li{height:45px;line-height:45px;font-size:15px;border-bottom:1px solid #e3e3e3; padding:0 0 0 50px;}
+#floatDivBoxs .floatDtxt{font-size:18px;color:#333;padding:12px 14px;}
+#floatDivBoxs .floatDtel{padding:0 0 15px 10px;}
+#floatDivBoxs .floatDtel img{display:block;}
+#floatDivBoxs .floatDbg{width:100%;height:20px;background:url(../images/online_botbg.jpg) no-repeat;box-shadow:-2px 0 3px rgba(0,0,0,0.25);}
+.floatShadow{ background:#fff;box-shadow:-2px 0 3px rgba(0,0,0,0.25);}
+.floatShadow img{border:none;outline:none;}
+#rightArrow{width:50px;height:45px;background:url(../images/online_arrow.jpg) no-repeat;position:fixed;top:180px;right:170px;z-index:999;background-position:0px 0;}
+#rightArrow a{color:#666;text-decoration:none;outline:none;display:block;height:45px;}
+#rightArrow a:hover {color:#e8431f;}
